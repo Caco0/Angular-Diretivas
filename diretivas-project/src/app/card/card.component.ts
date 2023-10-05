@@ -12,4 +12,11 @@ export class CardComponent implements OnInit {
   }
 
   ngOnInit(): void {}
+
+  add() {
+    this.produtos.push('Placa de video');
+  }
+  remover(index: number) {
+    this.produtos.splice(index, 1);
+  }
 }
