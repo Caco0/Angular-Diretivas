@@ -23,3 +23,7 @@
   <li *ngFor="let elemento of listaCompras">{{ elemento }}</li>
 </ul>
 <hr />
+<ng-template [ngIf]="isEnableBlock">
+  <a href="#">Finalizar Compra</a>
+</ng-template>
+<hr />
