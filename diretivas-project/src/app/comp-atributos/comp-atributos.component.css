@@ -4,3 +4,19 @@
 .disable {
   color: red;
 }
+.item {
+  height: 25px;
+  width: 190px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+}
+.adicionar {
+  margin: 10px;
+  padding: 15px;
+  border: none;
+  border-radius: 15px;
+  color: aliceblue;
+  background-color: blue;
+  font-weight: bold;
+}

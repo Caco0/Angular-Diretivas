@@ -4,8 +4,22 @@
   [ngStyle]="{
     background: corFundo,
     padding: paddingSize,
-    'border-radius': borderRsize
+    'border-radius': borderRSize
   }"
 >
   Curso Angular
 </h1>
+<hr />
+<h1>Lista de Compras</h1>
+<input
+  class="item"
+  type="text"
+  [(ngModel)]="item"
+  placeholder="digite o item da compra"
+/>
+<button class="adicionar" (click)="addLista()">Colocar na lista</button>
+<p>{{ item }}</p>
+<ul>
+  <li *ngFor="let elemento of listaCompras">{{ elemento }}</li>
+</ul>
+<hr />
