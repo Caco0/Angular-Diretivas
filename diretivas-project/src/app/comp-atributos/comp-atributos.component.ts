@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CompAtributosComponent implements OnInit {
   onOffStyle: string = 'disable';
+  corFundo: string = 'red';
+  paddingSize: string = '10px 10px';
+  borderRsize: string = '15px';
   constructor() {}
 
   ngOnInit(): void {}
