@@ -12,7 +12,7 @@ export class CompAtributosComponent implements OnInit {
   borderRSize: string = '15px';
   item: string = '';
   listaCompras: string[] = [];
-  isEnableBlock: boolean = false;
+  isEnableBlock: boolean = true;
 
   constructor() {}
 
